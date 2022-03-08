@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/css/main.2ab3e3f8.css",
+    "main.js": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/js/main.bf4aef9a.js",
+    "static/js/787.15ca0052.chunk.js": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/js/787.15ca0052.chunk.js",
+    "static/media/background2.jpg": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/media/background2.963b1d0be32f7735cabc.jpg",
+    "static/media/background1.jpg": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/media/background1.166d3f4ab56bba92c971.jpg",
+    "static/media/pix.jpeg": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/media/pix.09e59ff13597fa9c43b8.jpeg",
+    "static/media/carrinho.png": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/media/carrinho.8e748ad6a1ca01e5a106.png",
+    "index.html": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/index.html",
+    "main.2ab3e3f8.css.map": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/css/main.2ab3e3f8.css.map",
+    "main.bf4aef9a.js.map": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/js/main.bf4aef9a.js.map",
+    "787.15ca0052.chunk.js.map": "/git@github.com:Gabriel-takaki/myFrontEcommerce.git/static/js/787.15ca0052.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ab3e3f8.css",
+    "static/js/main.bf4aef9a.js"
+  ]
+}
