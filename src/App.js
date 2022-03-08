@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import ContextProviders from './ContextProvider';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {
+  Login,
+  Search,
+  Cart,
+  Payment,
+} from './pages/Index';
+
+
+class App extends React.Component {
+
+  render() {
+    return (
+   <HashRouter>
+
+      <ContextProviders>
+      <Routes>
+      <Route path="/" element={ <Login />} />
+      <Route path="/search" element={ <Search />} />
+      <Route path="/cart" element={ <Cart />} />
+      <Route path="/payment" element={ <Payment />} />
+
+      </Routes>
+      </ContextProviders>
+      </HashRouter>
+    );
+  }
 }
 
 export default App;
